@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <title>Helheim | Downloads</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css_2/glavni.css" rel="stylesheet"> 
+
+    <!-- Custom CSS -->
+    <link href="css_2/stil.css" rel="stylesheet">
+
+    <!-- Satic -->
+
+    <link rel="stylesheet" type="text/css" href="css_2/sat.css">
+    <script type="text/javascript" src="js_2/sat.js"></script>
+
+    <!-- Calculator -->
+
+    <script type="text/javascript" src="js_2/calculator.js"></script>
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+</head>
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="sat">
+              <span id="hr">00</span>
+              <span> : </span>
+              <span id="min">00</span>
+              <span> : </span>
+              <span id="sec">00</span>
+        </div>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">
+                    <i class="fa fa-rebel"></i>  <span class="light">Helheim</span>
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="download.html">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Albumi -->
+
+    <div class="naslov">
+        <h1>
+            Downloads
+        </h1>
+    </div>
+
+    <div class="albumi">
+        <div class="lista">
+            <ul class="bendovi">
+                <li>
+                    <img src="img/dynazty.jpg" class="dynazty">
+                    <p>Dynazty | Renatus <br>Price : 0.99$ </p>
+                </li>
+                <li>
+                    <img src="img/amoral_2.jpg" class="amoral">
+                    <p>Amoral | Fallen Leaves <br>Prices : 0.99$</p>
+                </li>
+                <li>
+                    <img src="IMAGES/awake.jpg" class="awake">
+                    <p>Dream Theater | Awake <br>Prices : 1.49$</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="albumi_2">
+        <div class="lista_2">
+            <ul class="bendovi_2">
+                <li>
+                    <img src="img/en.jpg" height="200" width="200">
+                    <p>Entombed | Left Hand Path <br>Price : 0.99$ </p>
+                </li>
+                <li>
+                    <img src="img/pale.jpg" height="200" width="200">
+                    <p>Opeth | Pale Communion <br>Prices : 2.99$</p>
+                </li>
+                <li>
+                    <img src="img/volta.jpg" height="200" width="200">
+                    <p>The Mars Volta | Deloused 2003 <br>Prices : 1.49$</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="albumi_3">
+        <div class="lista_3">
+            <ul class="bendovi_3">
+                <li>
+                    <img src="img/tree.jpg" height="200" width="200">
+                    <p>Porcupine Tree | The Incident <br>Price : 0.99$ </p>
+                </li>
+                <li>
+                    <img src="img/alogia.jpg" height="200" width="200">
+                    <p>Alogia | Elegia Balcanica <br>Prices : 2.99$</p>
+                </li>
+                <li>
+                    <img src="img/shadow.jpg" height="200" width="200">
+                    <p>Shadow Gallery | Digital Ghosts <br>Prices : 1.49$</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Calculator -->
+
+    <section id="calculator" class="favorite-section text-center">
+        <div class="calculator-yeah">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2" id="unutra">
+                    <h1>Calculator</h1>
+                        <div class="calculatoric">
+                            <form name="formica">
+                                <input type="text" id="display" disabled><br>
+                                <br>
+                                <input type="button" value="C" id="keys" onclick="brisi()">
+                                <input type="button" value="-" id="keys" onclick="oduzimanje()">
+                                <input type="button" value="+" id="keys" onclick="zbrajanje()"><br>
+                                <input type="button" value="9" id="keys" onclick="devet()">
+                                <input type="button" value="8" id="keys" onclick="osam()">
+                                <input type="button" value="7" id="keys" onclick="sedam()">
+                                <br>
+                                <input type="button" value="6" id="keys" onclick="sest()">
+                                <input type="button" value="5" id="keys" onclick="pet()">
+                                <input type="button" value="4" id="keys" onclick="cetiri()"><br>
+                                <input type="button" value="3" id="keys" onclick="tri()">
+                                <input type="button" value="2" id="keys" onclick="dva()">
+                                <input type="button" value="1" id="keys" onclick="jedan()"><br>
+                                <input type="button" value="0" id="keys" onclick="nula()">
+                                <input type="button" value="." id="keys" onclick="tocka()">
+                                <input type="button" value="=" id="keys" onclick="answer()">
+                            </form>
+                        </div>                             
+                </div>
+            </div>
+        </div>
+    </section> 
+</body>
+</html>
